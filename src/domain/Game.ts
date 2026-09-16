@@ -12,4 +12,8 @@ export class Game {
     this.genre = genre
     this.cover = cover
   }
+  getGenre(): string {
+    return this.genre
+  }
 }
+
